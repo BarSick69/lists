@@ -7,7 +7,7 @@ print(y)
 print(len(l))
 print(max(l))
 print(min(l))
-y=l
+y=l.copy()
 y.append(111)
 print(y)
 y=l
